@@ -1,0 +1,24 @@
+html,body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+li,ul,ol,dl,dt,dd {list-style:none;list-style-type: none;}
+html {
+    background: url("/xingkong.png") repeat,#000;
+}
+body {
+    font-family: 'Microsoft YaHei', 'Arial', sans-serif;
+}
+.global-box {
+    min-height: 100vh;
+}
+.z-body {
+    width: 1400px;margin:auto;position: relative;
+}
+.z-text-align-center {
+    text-align: center;
+}
+.z-float-left {
+    float:left;
+}
+.z-float-right {
+    float:right;
+
+}

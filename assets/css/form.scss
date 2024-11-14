@@ -1,0 +1,116 @@
+.z-divination-title {
+    display: block;width: 0px;height:0px;overflow: hidden;font-size: 0px;;
+  }
+  .z-divination {
+    width: 960px;margin-top: 100px;background:url("/assets/img/astrluck_circle.7b6373b5.png") no-repeat center center,#222584;
+    background-size: auto 100%;position: relative;text-align: center;
+    min-height: 600px;margin:200px auto 0px auto;border-radius: 12px;
+    padding-bottom: 70px;
+    .z-divination-saizi {
+      position: absolute;
+      left: 50%;margin-left: -109px;top: -100px;
+    }
+    .z-subtitle {
+      display: inline-block;position: relative;
+      top: 90px;padding-left: 50px;
+      background:url("/assets/img/divination-left.png") no-repeat left center;
+      .z-subtitle-text {
+        padding-right: 50px;background:url("/assets/img/divination-right.png") no-repeat right center;
+        color:#fff;font-weight: normal;
+      }
+    }
+    .z-form {
+      width: 700px;margin:auto;background:rgba(0,0,0,.3);padding-top: 50px;margin-top: 30px;padding-bottom: 20px;border-radius: 12px;
+      position: relative;left: -218px;
+      .z-astro-config {
+        width: 400px;background:rgba(0,0,0,.3);position: absolute;
+        top: 0px;right: -454px;border-radius: 12px;text-align: left;
+        padding: 0px 15px 15px 30px;
+        .z-astro-title {
+          color:#8b7dcf;font-weight: bold;
+          padding-top: 18px;padding-bottom: 3px;
+          overflow: hidden;text-decoration: underline;
+
+        }
+        .z-el-checkbox {
+          color:#fff;
+        }
+        :deep(.el-checkbox__label) {
+          color:#fff;
+        }
+        :deep(.el-radio__label) {
+          color:#fff;
+        }
+      }
+    }
+    .z-tip {
+      display: block;padding-top: 100px;color:#fff;
+    }
+    .z-tip2 {
+      display: block;padding-top: 10px;color:#bdb5c4;
+    }
+    .z-form-item {
+      overflow:hidden;padding-bottom: 17px;padding-top: 20px;border-bottom: 1px solid #252525;
+      &:last-child {
+        border: 0;
+      }
+      .z-label,.z-input {
+        float:left;
+      }
+      .z-label {
+        width: 160px;height: 40px;line-height: 40px;color:#fff;text-align: right;padding-right: 10px;
+      }
+      .z-input {
+        width: 400px;height: 45px;line-height: 45px;outline: 0;padding-left: 15px;
+        background: rgba(255, 255, 255, 1);border-radius: 6px;
+        border: 0;color:#000;font-size: 14px;
+      }
+      .z-select {
+       height: 45px;line-height: 45px;outline: 0;width: 100%;
+        color:#000;border: 0;border-radius: 6px;
+      }
+      .z-input2 {
+        padding-left: 15px;overflow: hidden; width: 100px;padding-right: 15px;margin-right: 11px;
+      }
+      .z-input3 {
+        width: 130px;
+      }
+      .z-title {
+        float:left;
+        color:#fff;
+      }
+      .z-edit {
+        color:#ffee00;text-decoration: underline;cursor: pointer;
+        font-size: 12px;
+      }
+      .z-float {
+        float:left;padding-left: 0px;
+      }
+    }
+    .z-form-item2 {
+      padding-bottom: 0px;border-bottom: 0;
+      .z-title {
+        position: relative;
+        bottom: -20px;
+      }
+    }
+    .z-padding-top0 {
+      padding-top: 0px;
+    }
+    .z-border0 {
+      border: 0;padding-bottom: 5px;
+    }
+    .z-sbumit {
+      height: 50px;width: 300px;border-radius: 25px;background-color:#ff3939;border: 0;color:#fff;font-size: 16px;line-height: 48px;cursor: pointer;
+    }
+    .z-waring {
+      font-size: 12px;color:#fff;vertical-align: middle;
+    }
+    .z-waring-icon {
+      color:red;vertical-align: middle;position: relative;
+      top: 3px;
+    }
+    .z-explain {
+      display: block;width: 700px;margin:auto;padding-top: 40px;color:#ffde00;
+    }
+  }
